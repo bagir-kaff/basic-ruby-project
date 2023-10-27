@@ -8,3 +8,11 @@ def caesar_cipher(text, shift_value=0)
   end
  text
 end
+
+def start
+  print "CAESAR CIPHER\nenter text: "
+  text = gets.chomp
+  print "enter shift amount (no float): "
+  value = gets.chomp.to_i
+  puts "result: "+ caesar_cipher(text, value)
+end
