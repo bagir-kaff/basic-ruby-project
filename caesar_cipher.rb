@@ -16,3 +16,5 @@ def start
   value = gets.chomp.to_i
   puts "result: "+ caesar_cipher(text, value)
 end
+
+start
